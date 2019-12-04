@@ -112,7 +112,7 @@ MIT License <http://www.opensource.org/licenses/mit-license.php>
 						oursettings = function(){
 							// this === jSignatureInstance 
 							var undoButtonSytle = 'position:absolute;display:none;margin:0 !important;top:auto'
-							, $undoButton = $('<input type="button" value="Undo last stroke" style="'+undoButtonSytle+'" />')
+							, $undoButton = $('<input type="button" value="Deshacer" style="'+undoButtonSytle+'" />')
 								.appendTo(this.$controlbarLower)
 
 							// this centers the button against the canvas.
